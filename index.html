@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hot Vibes Bar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="page-shell">
+        <div class="aurora aurora-a"></div>
+        <div class="aurora aur]ora-b"></div>
+        <div class="aurora aurora-c"></div>
+
+        <header class="topbar">
+            <a class="brand" href="#">
+                <span class="brand-mark">HV</span>
+                <span class="brand-text">
+                    <strong>Hot Vibes</strong>
+                    <small>Bar &amp; Lounge</small>
+                </span>
+            </a>
+
+            <nav class="nav-links">
+                <a href="#story">Story</a>
+                <a href="#menu">Menu</a>
+                <a href="#reserve">Reserve</a>
+            </nav>
+
+            <a class="nav-cta" href="#reserve">Reserve now</a>
+        </header>
+
+        <main class="hero">
+            <section class="hero-copy">
+                <p class="eyebrow">Electric nights • signature cocktails • live rhythm</p>
+                <h1>Where every night glows with <span>hot vibes</span>.</h1>
+                <p class="hero-text">Step into a neon-lit lounge with rooftop views, handcrafted cocktails, and a soundtrack that keeps the room moving.</p>
+
+                <div class="hero-actions">
+                    <a class="primary-btn" href="#reserve">Book a table</a>
+                    <a class="ghost-btn" href="#story">Explore the mood</a>
+                </div>
+
+                <div class="hero-highlights">
+                    <article>
+                        <strong>4.9/5</strong>
+                        <span>Guest rating</span>
+                    </article>
+                    <article>
+                        <strong>7 nights</strong>
+                        <span>Live sets weekly</span>
+                    </article>
+                    <article>
+                        <strong>2 rooftops</strong>
+                        <span>Skyline views</span>
+                    </article>
+                </div>
+            </section>
+
+            <section class="auth-card">
+                <div class="auth-panel">
+                    <div class="brand-panel">
+                        <div class="brand-mark brand-mark-large">HV</div>
+                        <div>
+                            <h2>Hot Vibes Bar</h2>
+                            <p>Login or register to access the restaurant dashboard.</p>
+                        </div>
+                    </div>
+
+                    <div class="switcher">
+                        <button id="show-login" class="switch-btn active">Login</button>
+                        <button id="show-register" class="switch-btn">Register</button>
+                    </div>
+
+                    <div class="form-window">
+                        <form id="login-form" class="auth-form active" autocomplete="off">
+                            <div class="input-group">
+                                <label for="login-email">Email</label>
+                                <input id="login-email" type="email" placeholder="you@hotvibes.com" required />
+                            </div>
+                            <div class="input-group">
+                                <label for="login-password">Password</label>
+                                <input id="login-password" type="password" placeholder="••••••••" required />
+                            </div>
+                           <button type="submit" class="primary-btn">Sign In</button>
+                            <p class="form-note">Use <strong>demo@hotvibes.com</strong> / <strong>Vibe2026</strong> to try it.</p>
+                        </form>
+
+                        <form id="register-form" class="auth-form" autocomplete="off">
+                            <div class="input-group">
+                                <label for="register-name">Full Name</label>
+                                <input id="register-name" type="text" placeholder="Your name" required />
+                            </div>
+                            <div class="input-group">
+                                <label for="register-email">Email</label>
+                                <input id="register-email" type="email" placeholder="you@hotvibes.com" required />
+                            </div>
+                            <div class="input-group">
+                                <label for="register-password">Password</label>
+                                <input id="register-password" type="password" placeholder="8+ characters" minlength="8" required />
+                            </div>
+                            <button type="submit" class="primary-btn">Create Account</button>
+                            <p class="form-note">Strong passwords keep your dashboard secure.</p>
+                        </form>
+                    </div>
+
+                    <div id="message" class="message"></div>
+                </div>
+            </section>
+        </main>
+
+        <section id="story" class="showcase">
+            <article class="showcase-card">
+                <img src="download.webp" alt="Stylish bar with colorful cocktails" />
+                <div class="showcase-copy">
+                    <p class="eyebrow">Signature experiences</p>
+                    <h3>Crafted nights with fire and finesse.</h3>
+                    <p>From sunset cocktails to late-night beats, every corner of Hot Vibes is designed to feel like a celebration.</p>
+                </div>
+            </article>
+            <article id="menu" class="showcase-card">
+                <img src="Headphones.webp" alt="Cocktails served with flair" />
+                <div class="showcase-copy">
+                    <p class="eyebrow">Tonight’s picks</p>
+                    <h3>Spicy Citrus Spark and Midnight Bloom.</h3>
+                    <p>Bright flavors, bold garnishes, and a menu built for the glow of the city.</p>
+                </div>
+            </article>
+            <article class="showcase-card">
+                <img src="download (4).jfif" alt="Lively rooftop lounge celebration" />
+                <div class="showcase-copy">
+                    <p class="eyebrow">After-hours energy</p>
+                    <h3>Rooftop views and rhythm after dark.</h3>
+                    <p>Reserve a lounge nook and settle in for skyline views, DJ sets, and late-night cocktails.</p>
+                </div>
+            </article>
+            <article class="showcase-card">
+                <img src="aln.png" alt="Stylish bar with colorful cocktails" />
+                <div class="showcase-copy">
+                    <p class="eyebrow">Night Shows</p>
+                    <h3>Meet your favorite stars with vibes</h3>
+                    <p>From sunset cocktails to late-night beats, every corner of Hot Vibes is designed to feel like a celebration.</p>
+                </div>
+            </article>
+            <article id="menu" class="showcase-card">
+                <img src="pls.jfif" alt="Cocktails served with flair" />
+                <div class="showcase-copy">
+                    <p class="eyebrow">Scroll the world</p>
+                    <h3>Spicy Citrus Spark and Midnight Bloom.</h3>
+                    <p>Bright flavors, bold garnishes, and a menu built for the glow of the city.</p>
+                </div>
+            </article>
+            <article class="showcase-card">
+                <img src="download (1).jfif" alt="Lively rooftop lounge celebration" />
+                <div class="showcase-copy">
+                    <p class="eyebrow">After-hours energy</p>
+                    <h3>Rooftop views and rhythm after dark.</h3>
+                    <p>Reserve a lounge nook and settle in for skyline views, DJ sets, and late-night cocktails.</p>
+                </div>
+            </article>
+        </section>
+
+        <section id="reserve" class="cta-section">
+            <div>
+                <p class="eyebrow">Reserve your seat</p>
+                <h3>Let the night begin with your favorite crew.</h3>
+            </div>
+            <a class="primary-btn" href="#">Reserve your table</a>
+        </section>
+
+        <section id="dashboard" class="dashboard hidden">
+            <div class="dashboard-header">
+                <div class="header-copy">
+                    <p class="eyebrow">Welcome to</p>
+                    <h2>Hot Vibes Bar Dashboard</h2>
+                    <p class="dashboard-subtitle">Track reservations, nightly revenue, and kitchen status at a glance.</p>
+                </div>
+                <button id="logout-btn" class="secondary-btn">Logout</button>
+            </div>
+
+            <div class="stats-grid">
+                <article class="stat-card accent-1">
+                    <span class="stat-label">Tonight's Guests</span>
+                    <strong>128</strong>
+                </article>
+                <article class="stat-card accent-2">
+                    <span class="stat-label">Open Tables</span>
+                    <strong>14</strong>
+                </article>
+                <article class="stat-card accent-3">
+                    <span class="stat-label">Bar Orders</span>
+                    <strong>86</strong>
+                </article>
+                <article class="stat-card accent-4">
+                    <span class="stat-label">Kitchen Tickets</span>
+                    <strong>22</strong>
+                </article>
+                <article class="stat-card accent-5">
+                    <span class="stat-label">Live Shows</span>
+                    <strong>MANC 0:0 EVE </strong>
+                    <strong>Huntrix band music </strong>
+                </article>
+                <article class="stat-card accent-6">
+                    <span class="stat-label">Undisputed Drinks</span>
+                    <strong>Hennesy</strong>
+                    <strong> Vodka </strong>
+                </article>
+                <article class="stat-card accent-7">
+                    <span class="stat-label">Major Foods</span>
+                    <strong> bourchette </strong>
+                    <strong> chicken </strong>
+                </article>
+                <article class="stat-card accent-8">
+                    <span class="stat-label">Closing time</span>
+                    <strong> 23:00pm </strong>
+                </article>
+            </div>
+
+            <div class="dashboard-panels">
+                <div class="panel glass-panel">
+                    <h3>Bar Pulse</h3>
+                    <p>Live cocktail flow, guest moods and drink specials are ready to roll.</p>
+                    <ul>
+                        <li>Mixology trend: Spicy Pineapple</li>
+                        <li>VIP seats filled: 6 / 8</li>
+                        <li>Next happy hour in: 18 min</li>
+                    </ul>
+                </div>
+                <div class="panel glass-panel">
+                    <h3>Restaurant Flow</h3>
+                    <p>See table rotations, waiting list, and kitchen timing in one screen.</p>
+                    <ul>
+                        <li>Seats occupied: 72%</li>
+                        <li>Reservation lead: 42 min</li>
+                        <li>Order speed rating: 4.8/5</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
